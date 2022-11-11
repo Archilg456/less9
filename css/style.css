@@ -86,7 +86,8 @@
 /* section 1 start */
 .section-1 {
     max-width: 1366px;
-    width: 100%;;
+    width: 100%;
+    margin: 0 auto;
 }
 .main-box{
     width: 100%;
