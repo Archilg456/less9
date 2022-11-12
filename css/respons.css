@@ -154,20 +154,19 @@
  .text-mini-block :nth-child(3){
     display: none;
  }
+ .two-img-box {
+    flex-wrap: wrap;
 }
-@media (max-width: 580px){
-    .two-img-box {
-        flex-wrap: wrap;
-    }
-    .two-img-box img {
-        margin: 0 auto;
-        padding-top: 12px;
-        width: 95%;
-    }
-    .one-img-box {
-        display: none;
-    }
+.two-img-box img {
+    margin: 0 auto;
+    padding-top: 12px;
+    width: 95%;
 }
+ .one-img-box {
+    display: none;
+}
+}
+
 
 
 
