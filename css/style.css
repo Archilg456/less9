@@ -22,16 +22,35 @@
 }
 .logo1 {
     font-family: 'Poppins', sans-serif;
+    transition: 1s ease;
+}
+.logo1:hover {
+    font-size: 22px;
+    color: #DC4E41;
+    transform: scale(1.2);
+    transform: scale(1.2);
+    transform: scale(1.2);
 }
 .ul-iteam {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.ul-iteam li {
+    color:#DC4E41;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.ul-iteam li:hover{
+      transform: scale(1.5);
+      text-shadow: none;
+}
 .ul-iteam  a {
     font-size: 12px;
     color: #ffff;
     font-family: 'Poppins', sans-serif;
+}
+.ul-iteam li a:hover{
+    color:#DC4E41;
 }
 .li-iteam {
     margin-right: 49px;
@@ -126,7 +145,16 @@
     font-size: 14px;
     text-align: center;
     background: #5863F8;
+    transition: 1s ease ;
+}
+.read-more a {
     color: #ffff;
+}
+.read-more:hover {
+    color: #ffff;
+    transform: scale(1.2);
+    transform: scale(1.2);
+    transform: scale(1.2);
 }
 .imgs-box {
     max-width: 536px;
